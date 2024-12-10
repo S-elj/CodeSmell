@@ -1,8 +1,8 @@
-package selj.evogl.raw;
+package selj.evogl.reseba;
 
 class Main {
     public static void main(String[] args) {
-        OrderProcessor processor = new OrderProcessor();
+        OrderService processor = new OrderService();
         processor.processOrder("ORDER123", "CUST456");
         System.out.println("Ordre traité avec succès");
     }

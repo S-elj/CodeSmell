@@ -1,4 +1,4 @@
-package selj.evogl.raw;
+package selj.evogl.base;
 
 class OrderProcessor {
     private InventoryManager inventoryManager;
