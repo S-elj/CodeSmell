@@ -1,15 +1,15 @@
 package selj.evogl.human;
 
-class OrderService {
-    private InventoryService inventoryManager;
-    private PaymentService paymentService;
-    private ShippingService shippingService;
-    private NotificationService notificationService;
-    private CustomerRepository customerRepository;
+class OrderService implements IOrderService {
+    private IInventoryService inventoryManager;
+    private IPaymentService paymentService;
+    private IShippingService shippingService;
+    private INotificationService notificationService;
+    private ICustomerRepository customerRepository;
 
-    public OrderService(InventoryService inventoryManager, PaymentService paymentService,
-                        ShippingService shippingService, NotificationService notificationService,
-                        CustomerRepository customerRepository) {
+    public OrderService(IInventoryService inventoryManager, IPaymentService paymentService,
+                        IShippingService shippingService, INotificationService notificationService,
+                        ICustomerRepository customerRepository) {
         this.inventoryManager = inventoryManager;
         this.paymentService = paymentService;
         this.shippingService = shippingService;
