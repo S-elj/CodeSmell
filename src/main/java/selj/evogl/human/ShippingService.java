@@ -1,4 +1,4 @@
-package selj.evogl.reseba;
+package selj.evogl.human;
 
 public class ShippingService {
     public String createShipment(String orderId, String address) { return "TN123456"; }

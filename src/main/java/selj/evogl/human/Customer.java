@@ -1,4 +1,4 @@
-package selj.evogl.reseba;
+package selj.evogl.human;
 
 public class Customer {
     private String id;

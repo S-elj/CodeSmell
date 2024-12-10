@@ -1,4 +1,4 @@
-package selj.evogl.reseba;
+package selj.evogl.human;
 
 class OrderService {
     private InventoryService inventoryManager;

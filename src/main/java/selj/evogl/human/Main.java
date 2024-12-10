@@ -1,4 +1,4 @@
-package selj.evogl.reseba;
+package selj.evogl.human;
 
 class Main {
     public static void main(String[] args) {
